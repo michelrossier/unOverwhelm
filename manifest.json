@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+    "default_title": "unOverwhelm",
+    "default_icon": "128.png",
+    "default_popup": "improve.html"
+ },
+  "name": "unOverwhelm",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Make long lesson pages more compact",
+  "icons": { "128": "128.png" },
+  "permissions": [
+     "tabs", "http://*/*", "https://*/*"
+  ],
+  "version": "0.1",
+  "web_accessible_resources": [
+        "css.css"
+  ]
+}

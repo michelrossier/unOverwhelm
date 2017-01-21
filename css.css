@@ -1,0 +1,9 @@
+.content {
+  display: none !important;
+}
+.content.reveal {
+  display: block !important;
+}
+.entry-content h2 {
+  cursor: pointer;
+}
